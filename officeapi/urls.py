@@ -19,5 +19,5 @@ from officeapi import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.get_charactes)
+    path('', views.get_characters)
 ]

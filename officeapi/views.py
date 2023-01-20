@@ -7,7 +7,7 @@ from .characters import characters
 
 
 @api_view(['GET'])
-def get_charactes(request):
+def get_characters(request):
     # characters = Character.objects.all()
     # serializer = CharacterSerializer(characters, many=True)
     return Response(characters)
